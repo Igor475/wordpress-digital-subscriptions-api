@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="App API">
+  <description>Verificacoes basicas de estilo para o plugin App API.</description>
+  <file>app-api.php</file>
+  <file>includes</file>
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+  <arg name="extensions" value="php"/>
+  <rule ref="WordPress-Core"/>
+  <rule ref="WordPress-Extra"/>
+</ruleset>
